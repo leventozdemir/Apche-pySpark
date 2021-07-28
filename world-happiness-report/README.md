@@ -67,7 +67,7 @@
 
 # <center> Data Exploration </center>
       
-## Question2: How many Country there are?
+## Question1: How many Country there are?
       country_data = data.groupBy('Country').count().show()
       
 <img width="1132" alt="1" src="https://user-images.githubusercontent.com/51120437/127312512-a0a9d828-f1d6-4657-8279-cc768498c640.png">
@@ -78,8 +78,11 @@
       Af_data= Af_data.drop('Country')
       print("Number of rows that collected from Afghanistan =", Af_data.count())
       Af_data.show(12)
+      
 <img width="1143" alt="1" src="https://user-images.githubusercontent.com/51120437/127312592-6fd1ef91-8151-4705-b990-5a8c2acb85b7.png">
+
 ## Question3: what is tha average of Positive and Negative affect in Afghanistan?
+
       Af_data.groupBy().avg('Positive_affect_').show()
       Af_data.groupBy().avg('Negative_affect_').show()
 <img width="1149" alt="1" src="https://user-images.githubusercontent.com/51120437/127312682-c74ef266-3175-43e5-8008-19b8dc802dc2.png">
