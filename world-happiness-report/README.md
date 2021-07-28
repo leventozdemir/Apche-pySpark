@@ -56,6 +56,7 @@
       data.show(5)
       
 <img width="1145" alt="1" src="https://user-images.githubusercontent.com/51120437/127312241-dedb3b3d-12c0-49bd-83fa-dfbcb34d7fe5.png">
+
 ## 1.3 Drop null values
       
       print(data.count())
@@ -107,6 +108,7 @@
 <img width="1063" alt="1" src="https://user-images.githubusercontent.com/51120437/127312929-4aead636-6cfa-4a88-9b6b-9184ca90183d.png">
 
 
+<img width="1018" alt="Pandas_to_Spark" src="https://user-images.githubusercontent.com/51120437/127403018-95007991-dbaf-406c-a6a3-ac2c11e5c304.png">
 
 
 
